@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F0FF;
+    color: #251735;
+}
+
+header {
+    background-color: #59358A;
+    color: #F5F0FF;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    background-color: #DDD0F5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #251735;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #EDE0FF;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #DDD0F5;
+    
+}
+
+h2 {
+    color: #59358A;
+}
+
+button {
+    background-color: #59358A;
+    color: #F5F0FF;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #251735;
+}
+
+input, select, textarea {
+    max-width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border: 1px solid #59358A;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #A78BDA;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #DDD0F5;
+}
+
+tfoot {
+    background-color: #F5F0FF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #251535;
+    color: #F5F0FF;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 15px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+a:focus-visible, 
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #005fcc;
+    outline-offset: 3px;
+}

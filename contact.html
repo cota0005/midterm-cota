@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact | Cons´ Music World</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">
+        Skip to main content
+    </a>
+    <header>
+        <h1>CONTACT US!!!</h1>
+    </header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="upcoming.html">Upcoming</a></li>
+
+    </ul>
+
+</nav>
+<main id="main-content">
+     <section>
+        <h2>Get in Touch </h2>
+        <p> Have a question, music reccomendation, suggestion, or just trying to talk about music? Contact Cons!</p>
+
+
+    <form method="post" action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <label for="message">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="">Choose a subject</option>
+            <option value="general">General Question</option>
+            <option value="feedback">Music Recommendation</option>
+            <option value="support">Feedback!</option>
+        </select>
+
+        <label for="message">Your message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your
+    message here..." required></textarea>
+
+        <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            <label>
+                <input type="radio" name="contact-method" value="email" required> Email
+            </label>
+            <label>
+                <input type="radio" name="contact-method" value="phone" required> Phone
+            </label>
+            <label>
+                <input type="radio" name="contact-method" value="no-reply" required> No Reply Needed
+            </label>
+        </fieldset>
+
+        <button type="submit">Send Message!</button>
+
+    </form>
+    </section>
+    <section>
+        <h2>Music Review Schedule</h2>
+        <p>Here are some albums planned for future reviews!</p>
+        </section>
+
+    <table>
+        <caption>Upcoming Album Reviews</caption>
+        <thead>
+            <tr>
+                <th scope="col">Album</th>
+                <th scope="col">Artist</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Por cesárea</th>
+                <td>Dillom</td>
+                <td>Planned for: Nov 25th</td>
+            </tr>
+            <tr>
+                <th scope="row">ZARA.</th>
+                <td>LoLo</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <th scope="row">i Music Listen</th>
+                <td>iza tkm</td>
+                <td>In Progress</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total Albums</th>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+</main>
+
+    <footer>
+        <p>2026 Cons´ Music World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
